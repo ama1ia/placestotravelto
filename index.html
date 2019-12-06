@@ -1,0 +1,169 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Places to Travel to</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body class="" id="body">
+		<div class="top">
+			<div class="title-col"><h1>Have I Been Here?</h1></div>
+			<div class="countdown-col h" id="a"><p>0 out of 12 places visited</p></div>
+		</div>
+		
+		<div class="bottom">
+			<!--first column of images-->
+			<div class="short-col">
+				<div class="place-row">
+					<div class="short-img center-horizontal center-vertical popup2" onClick="seventhImage()">
+						<img src="images/BhP.jpg" class="contain-image">
+						<span class="popuptext2 p" id="BhP">
+							<ul>
+								<li>Buckingham Palace features 775 rooms. Of these rooms, 188 are staff bedrooms, 92 offices, 78 bathrooms, 52 royal and guest bedrooms, and 19 state rooms.</li>
+								<li>A child by the name of Edward Jones managed to break into the Palace three times, stealing food from the kitchen, the Queen’s underwear, and even getting a chance to sit on the throne!</li>
+								<li>Over the course of World War Two, Buckingham Palace survived 9 German Bombs attacks.</li>
+								<li>King George V enforced rationing within the Palace during World War I. This even involved locking the wine cellars and refraining from the consumption of alcohol.</li>
+							</ul>
+						</span>
+					</div>
+					<div class="first-button">
+						<div class="short-button blue p center-vertical center-horizontal" id="yes" onclick="addOne()"><p>I've been here!</p></div>
+						<div class="short-button light_yellow p center-horizontal center-vertical" id="no" onclick="subtractOne()"><p>I haven't been here!</p></div>
+					</div>
+				</div>
+				<div class="place-row">
+					<div class="short-img center-horizontal center-vertical popup2" onClick="eighthImage()">
+						<span class="popuptext2" id="C"><p>here</p></span>
+						<img src="images/C.jpg" class="contain-image">
+					</div>
+					<div class="first-button light_yellow">
+						<div class="short-button blue p center-vertical center-horizontal" onclick="addOne()"><p>I've been here!</p></div>
+						<div class="short-button p center-horizontal center-vertical" onclick="subtractOne()"><p>I haven't been here.</p></div>
+					</div>
+				</div>
+				<div class="place-row">
+					<div class="short-img center-horizontal center-vertical popup2" onClick="ninthImage()">
+						<span class="popuptext2" id="GGB"><p>here</p></span>
+						<img src="images/GGB.jpg" class="contain-image">
+					</div>
+					<div class="first-button light_yellow">
+						<div class="short-button blue p center-vertical center-horizontal" onclick="addOne()"><p>I've been here!</p></div>
+						<div class="short-button p center-horizontal center-vertical" onclick="subtractOne()"><p>I haven't been here.</p></div>
+					</div>
+				</div>
+			</div>
+			<!--second column of images-->
+			<div class="tall-col">
+				<div class="half-tall">
+					<div class="tall-place-row ">
+						<div class="tall-img center-horzontal center-vertical popup p" onClick="firstImage()">
+							<img src="images/ET.jpg" class="contain-image">
+							<span class="popuptext p" id="ET">
+								<ul>
+									<li>The Eiffel Tower was finished on March 31, 1889.</li>
+									<li>It was the tallest man-made structure for 41 years until the Chrysler Building in New York was built in 1930.</li> 
+									<li>It is 324 meters tall and has 1,665 steps.</li> 
+									<li>Repainting the tower, which happens every seven years, requires 60 tonnes of paint.</li>
+									<li>The eiffel tower has its own lego set.</li>
+								</ul>
+							</span>
+						</div>
+						<div class="second-button">
+							<div class="tall-button blue p center-horizontal" id="yes" onclick="addOne()"><p>I've been here!</p></div>
+							<div class="tall-button light_yellow p center-horizontal" onclick="subtractOne()"><p>I haven't been here.</p></div>
+						</div>
+					</div>
+					<div class="tall-place-row">
+						<div class="tall-img center-horzontal center-vertical popup" onClick="secondImage()">
+							<img src="images/LToP.jpg" class="contain-image">
+							<span class="popuptext" id="LToP"><p>another</p></span>
+							
+						</div>
+						<div class="second-button">
+							<div class="tall-button blue p center-horizontal" onclick="addOne()"><p>I've been here!</p></div>
+							<div class="tall-button light_yellow p center-horizontal" onclick="subtractOne()"><p>I haven't been here.</p></div>
+						</div>
+					</div>
+					<div class="tall-place-row">
+						<div class="tall-img center-horzontal center-vertical popup" onClick="thirdImage()">
+							<img src="images/SoL.jpg" class="contain-image">
+							<span class="popuptext" id="SoL"><p>another</p></span>
+							
+						</div>
+						<div class="second-button">
+							<div class="tall-button blue p center-horizontal" onclick="addOne()"><p>I've been here!</p></div>
+							<div class="tall-button light_yellow p center-horizontal" onclick="subtractOne()"><p>I haven't been here.</p></div>
+						</div>
+					</div>
+				</div>
+				<div class="half-tall">
+					<div class="tall-place-row">
+						<div class="tall-img center-horzontal center-vertical popup" onClick="fourthImage()">
+							<span class="popuptext" id="StMB"><p>another</p></span>
+							<img src="images/StMB.jpg" class="contain-image">
+						</div>
+						<div class="second-button">
+							<div class="tall-button blue p center-horizontal" onclick="addOne()"><p>I've been here!</p></div>
+							<div class="tall-button light_yellow p center-horizontal" onclick="subtractOne()"><p>I haven't been here.</p></div>
+						</div>
+					</div>
+					<div class="tall-place-row">
+						<div class="tall-img center-horzontal center-vertical popup" onClick="fifthImage()">
+							<span class="popuptext" id="CtR"><p>another</p></span>
+							<img src="images/CtR.JPG" class="contain-image">
+						</div>
+						<div class="second-button">
+							<div class="tall-button blue p center-horizontal" onclick="addOne()"><p>I've been here!</p></div>
+							<div class="tall-button light_yellow p center-horizontal" onclick="subtractOne()"><p>I haven't been here.</p></div>
+						</div>
+					</div>
+					<div class="tall-place-row">
+						<div class="tall-img center-horzontal center-vertical popup" onClick="sixthImage()">
+							<span class="popuptext" id="AdT"><p>another</p></span>
+							<img src="images/AdT.jpg" class="contain-image">
+						</div>
+						<div class="second-button">
+							<div class="tall-button blue p center-horizontal" onclick="addOne()"><p>I've been here!</p></div>
+							<div class="tall-button light_yellow p center-horizontal" onclick="subtractOne()"><p>I haven't been here.</p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--third column of images-->
+			<div class="short-col2">
+				<div class="place-row">
+					<div class="short-img center-horizontal center-vertical popup2" onClick="tenthImage()">
+						<span class="popuptext2" id="GWoC"><p>another</p></span>
+						<img src="images/GWoC.jpg" class="contain-image">
+					</div>
+					<div class="first-button">
+						<div class="short-button blue p center-vertical center-horizontal" onclick="addOne()"><p>I've been here!</p></div>
+						<div class="short-button light_yellow p center-horizontal center-vertical" onclick="subtractOne()"><p>I haven't been here.</p></div>
+					</div>
+				</div>
+				<div class="place-row">
+					<div class="short-img center-horizontal center-vertical popup2" onClick="eleventhImage()">
+						<span class="popuptext2" id="MP"><p>another</p></span>
+						<img src="images/MP.jpg" class="contain-image">
+					</div>
+					<div class="first-button">
+						<div class="short-button blue p center-vertical center-horizontal" onclick="addOne()"><p>I've been here!</p></div>
+						<div class="short-button light_yellow p center-horizontal center-vertical" onclick="subtractOne()"><p>I haven't been here.</p></div>
+					</div>
+				</div>
+				<div class="place-row">
+					<div class="short-img center-horizontal center-vertical popup2" onClick="twelfthImage()">
+						<span class="popuptext2" id="TMh"><p>another</p></span>
+						<img src="images/TMh.jpg" class="contain-image">
+					</div>
+					<div class="first-button">
+						<div class="short-button blue p center-vertical center-horizontal" onclick="addOne()"><p>I've been here!</p></div>
+						<div class="short-button light_yellow p center-horizontal center-vertical" onclick="subtractOne()"><p>I haven't been here.</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
